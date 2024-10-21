@@ -35,7 +35,7 @@ def calculating_GC_content_of_DNA_sequence():
         g_count = dna_sequence.count('G')
         c_count = dna_sequence.count('C')
 
-        # Sonuçları ekrana yazdır
+        # Print GC count
         print(f"G  base count: {g_count}")
         print(f"C base count: {c_count}")
 
