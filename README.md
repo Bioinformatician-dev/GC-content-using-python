@@ -29,7 +29,7 @@ GC content can be an indicator when understanding evolutionary relationships bet
 Calculating the GC content of a DNA sequence is one of the initial steps in genomic analysis. This calculation provides researchers with important insights into the structure and potential biological functions of the sequence. Calculating GC content is a commonly used method in bioinformatics analysis and contributes valuable insights to scientific studies.
 
 In this article, we have outlined why GC content is important and how it is used in genome analysis. In the next step, we will share a simple code example demonstrating how to calculate the GC content in a DNA sequence using Python.
-## Objectives
+## Step
 
 
 Take a DNA sequence from the user.
