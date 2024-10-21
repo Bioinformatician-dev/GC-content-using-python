@@ -36,24 +36,24 @@ def calculating_GC_content_of_DNA_sequence():
         c_count = dna_sequence.count('C')
 
         # Sonuçları ekrana yazdır
-        print(f"G bazlarının sayısı: {g_count}")
-        print(f"C bazlarının sayısı: {c_count}")
+        print(f"G  base count: {g_count}")
+        print(f"C base count: {c_count}")
 
-        # Toplam GC içeriği
+        # Total GC content
         gc_content = g_count + c_count
-        print(f"Toplam GC içeriği: {gc_content}")
+        print(f"Top GC content: {gc_content}")
 
 
 
 
-        # DNA dizisinin toplam uzunluğu
+        # Total length of the DNA sequence
         total_length = len(dna_sequence)
 
-        # GC içeriğini yüzdelik olarak hesapla
+        #  Calculate the GC content percentage and Print the results
         gc_percentage = (gc_content / total_length) * 100
 
-        # Sonuçları ekrana yazdır
-        print(f"GC içeriği: %{gc_percentage:.2f}")
+        # GC content %
+        print(f"GC content: %{gc_percentage:.2f}")
 
 
 
