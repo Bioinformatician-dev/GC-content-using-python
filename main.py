@@ -1,6 +1,4 @@
-Finding
-G and C
-content
+#Finding G and C content
 for a single fasta file
 
 # reading the input  fasta file
